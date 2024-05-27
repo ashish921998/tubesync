@@ -169,7 +169,7 @@ export default function Page() {
 	);
 }
 
-function FileIcon(props) {
+function FileIcon(props: any) {
 	return (
 		<svg
 			{...props}
@@ -189,7 +189,7 @@ function FileIcon(props) {
 	);
 }
 
-function UploadIcon(props) {
+function UploadIcon(props: any) {
 	return (
 		<svg
 			{...props}
@@ -210,7 +210,7 @@ function UploadIcon(props) {
 	);
 }
 
-function VideoIcon(props) {
+function VideoIcon(props: any) {
 	return (
 		<svg
 			{...props}

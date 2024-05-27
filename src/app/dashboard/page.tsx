@@ -337,7 +337,7 @@ export default function Page() {
 	);
 }
 
-function CheckIcon(props) {
+function CheckIcon(props: any) {
 	return (
 		<svg
 			{...props}
@@ -356,7 +356,7 @@ function CheckIcon(props) {
 	);
 }
 
-function FileIcon(props) {
+function FileIcon(props: any) {
 	return (
 		<svg
 			{...props}
@@ -376,7 +376,7 @@ function FileIcon(props) {
 	);
 }
 
-function GaugeIcon(props) {
+function GaugeIcon(props: any) {
 	return (
 		<svg
 			{...props}
@@ -396,7 +396,7 @@ function GaugeIcon(props) {
 	);
 }
 
-function VideoIcon(props) {
+function VideoIcon(props: any) {
 	return (
 		<svg
 			{...props}
